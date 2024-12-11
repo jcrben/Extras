@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+; Remove LibreOffice ODS File Association
+; [-HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\shell\open]
+; [-HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\SupportedTypes]
+
+; [-HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc]
+
+; ; Remove LibreOffice ODT File Association
+; [-HKEY_CURRENT_USER\Software\Classes\LibreOffice.Writer]
+
+; ; Remove LibreOffice ODP File Association
+; [-HKEY_CURRENT_USER\Software\Classes\LibreOffice.Impress]
+
+; ; Remove File Extensions Associations
+; [-HKEY_CURRENT_USER\Software\Classes\.ods]
+; [-HKEY_CURRENT_USER\Software\Classes\.odt]
+; [-HKEY_CURRENT_USER\Software\Classes\.odp]
+
+; ; Remove Additional Registry Entries
+; [-HKEY_CLASSES_ROOT\.ods]
+; [-HKEY_CLASSES_ROOT\.odt]
+; [-HKEY_CLASSES_ROOT\.odp]
+; [-HKEY_CLASSES_ROOT\LibreOffice.Calc]
+; [-HKEY_CLASSES_ROOT\LibreOffice.Writer]
+; [-HKEY_CLASSES_ROOT\LibreOffice.Impress]
+
+; ; Remove Default Icons
+; [-HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc\DefaultIcon]
+; [-HKEY_CURRENT_USER\Software\Classes\LibreOffice.Writer\DefaultIcon]
+; [-HKEY_CURRENT_USER\Software\Classes\LibreOffice.Impress\DefaultIcon]
+; [-HKEY_CLASSES_ROOT\LibreOffice.Calc\DefaultIcon]
+; [-HKEY_CLASSES_ROOT\LibreOffice.Writer\DefaultIcon]
+; [-HKEY_CLASSES_ROOT\LibreOffice.Impress\DefaultIcon]

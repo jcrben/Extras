@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; LibreOffice ODS File Association
+[HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\shell\open]
+"FriendlyAppName"="LibreOffice Calc"
+
+[HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc]
+"FriendlyTypeName"="LibreOffice Calc Document"
+[HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc\DefaultIcon]
+@="\"C:\\Users\\ben\\scoop\\apps\\libreoffice\\current\\Libreoffice\\program\\scalc.exe\",0"
+[HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc\shell\open]
+@="Open with LibreOffice Calc"
+[HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc\shell\open\command]
+@="\"C:\\Users\\ben\\scoop\\apps\\libreoffice\\current\\Libreoffice\\program\\scalc.exe\" \"%1\""
+
+; File Extension Association
+[HKEY_CURRENT_USER\Software\Classes\.ods]
+@="LibreOffice.Calc"
+[HKEY_CURRENT_USER\Software\Classes\.ods\DefaultIcon]
+@="\"C:\\Users\\ben\\scoop\\apps\\libreoffice\\current\\Libreoffice\\program\\scalc.exe\",0"

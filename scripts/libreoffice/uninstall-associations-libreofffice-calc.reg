@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; Remove LibreOffice ODS File Association
+[-HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\shell\open]
+
+; Remove LibreOffice Calc File Type Association
+[-HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc]
+
+; Remove File Extension Association
+[-HKEY_CURRENT_USER\Software\Classes\.ods]
+
+; Remove Suggested Apps Entries
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ods\OpenWithList]
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ods\OpenWithProgids]
