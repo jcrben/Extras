@@ -1,7 +1,27 @@
 Windows Registry Editor Version 5.00
 
-; LibreOffice ODS File Association
-[HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\shell\open]
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.ascx\OpenWithProgids]
+"CodeOSS"=""
+"CodeOSS.ascx"=""
+
+[HKEY_CURRENT_USER\Software\Classes\CodeOSS.ascx]
+@="ASCX Source File"
+"AppUserModelID"="Microsoft.CodeOSS"
+
+[HKEY_CURRENT_USER\Software\Classes\CodeOSS.ascx\DefaultIcon]
+@="\"$codedir\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\CodeOSS.ascx\shell\open]
+"Icon"="\"$code\""
+
+[HKEY_CURRENT_USER\Software\Classes\CodeOSS.ascx\shell\open\command]
+@="\"$code\" \"%1\""
+
+
+; LibreOffice Calc ODS File Association
+[HKEY_CURRENT_USER\Software\Classes\Applications\scalc.exe\shell\open]
 "FriendlyAppName"="LibreOffice Calc"
 [HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\SupportedTypes]
 ".ods"=""
@@ -9,41 +29,41 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc]
 "FriendlyTypeName"="LibreOffice Calc Document"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc\DefaultIcon]
-@="\"C:\\Program Files\\LibreOffice\\program\\soffice.exe\",0"
+@="\"$libreofficedir\\scalc.exe\",0"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc\shell\open]
 @="Open with LibreOffice Calc"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc\shell\open\command]
-@="\"C:\\Program Files\\LibreOffice\\program\\soffice.exe\" \"%1\""
+@="\"$libreofficedir\\scalc.exe\" \"%1\""
 
 ; LibreOffice ODT File Association
-[HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\shell\open]
+[HKEY_CURRENT_USER\Software\Classes\Applications\swriter.exe\shell\open]
 "FriendlyAppName"="LibreOffice Writer"
-[HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\SupportedTypes]
+[HKEY_CURRENT_USER\Software\Classes\Applications\swriter.exe\SupportedTypes]
 ".odt"=""
 
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Writer]
 "FriendlyTypeName"="LibreOffice Writer Document"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Writer\DefaultIcon]
-@="\"C:\\Program Files\\LibreOffice\\program\\soffice.exe\",0"
+@="\"$libreofficedir\\swriter.exe\",0"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Writer\shell\open]
 @="Open with LibreOffice Writer"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Writer\shell\open\command]
-@="\"C:\\Program Files\\LibreOffice\\program\\soffice.exe\" \"%1\""
+@="\"$libreofficedir\\swriter.exe\" \"%1\""
 
 ; LibreOffice ODP File Association
-[HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\shell\open]
+[HKEY_CURRENT_USER\Software\Classes\Applications\simpress.exe\shell\open]
 "FriendlyAppName"="LibreOffice Impress"
-[HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\SupportedTypes]
+[HKEY_CURRENT_USER\Software\Classes\Applications\simpress.exe\SupportedTypes]
 ".odp"=""
 
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Impress]
 "FriendlyTypeName"="LibreOffice Impress Presentation"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Impress\DefaultIcon]
-@="\"C:\\Program Files\\LibreOffice\\program\\soffice.exe\",0"
+@="\"$libreofficedir\\simpress.exe\",0"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Impress\shell\open]
 @="Open with LibreOffice Impress"
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Impress\shell\open\command]
-@="\"C:\\Program Files\\LibreOffice\\program\\soffice.exe\" \"%1\""
+@="\"$libreofficedir\\simpress.exe\" \"%1\""
 
 ; File Extensions Associations
 [HKEY_CURRENT_USER\Software\Classes\.ods]

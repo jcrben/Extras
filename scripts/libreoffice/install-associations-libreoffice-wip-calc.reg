@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
 ; LibreOffice ODS File Association
-[HKEY_CURRENT_USER\Software\Classes\Applications\soffice.exe\shell\open]
+[HKEY_CURRENT_USER\Software\Classes\Applications\scalc.exe\shell\open]
 "FriendlyAppName"="LibreOffice Calc"
 
 [HKEY_CURRENT_USER\Software\Classes\LibreOffice.Calc]
